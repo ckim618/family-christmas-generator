@@ -15,6 +15,48 @@ a {
   box-sizing: border-box;
 }
 
+.MuiTableRow-root:nth-child(odd) {
+  background-color: #E9BDBB;
+}
+
+.MuiTableRow-root:nth-child(even) {
+  background-color: #DA807C;
+}
+
+.MuiToolbar-root {
+  background-color: #fff;
+  justify-content: center;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft  {
+  background-color: #DBB06E
+}
+
+.Component-paginationToolbar-2 {
+  display: none;
+}
+
+.MuiFormControl-root.MuiTextField-root.MTableToolbar-searchField-10 {
+  padding: 0;
+  min-width: 50%;
+}
+
+.MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-5.MuiToolbar-gutters {
+    padding: 0 16px;
+}
+
+.MTableToolbar-spacer-7 {
+    display: none;
+}
+
+tr.MuiTableRow-root.MuiTableRow-head span {
+  font-weight: 900;
+}
+
+.Component-paginationToolbar-2  {
+  display: none !important;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
